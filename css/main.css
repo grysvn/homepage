@@ -28,6 +28,10 @@ html {
     text-shadow: none;
 }
 
+.booktitle {
+    text-decoration: underline;
+}
+
 .inlineimage {
     float: left;
     margin-right: 10px;
@@ -106,7 +110,7 @@ html {
 }
 
 #body {
-	
+
 }
 
 #content {
@@ -115,7 +119,7 @@ html {
 }
 
 #navbar {
-	
+
 }
 
 .headimg {
