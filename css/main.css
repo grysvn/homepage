@@ -110,16 +110,19 @@ html {
 }
 
 #body {
-
+  text-align: left
 }
 
-#content {
-	text-align:left;
-    border-left: 1px solid #ccc;
+pre {
+    font-size: 15px;
+    border: 1px solid #828282;
+    border-radius: 3px;
+    background-color: #eef;
 }
 
 #navbar {
-
+  text-align: center;
+  border-left: 1px solid #ccc;
 }
 
 .headimg {
@@ -127,6 +130,58 @@ html {
 	max-width:75%;
     border: 3px solid #ccc;
 }
+
+.category {
+  color: #ccc;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0px;
+    list-style: none;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #828282;
+}
+
+.post-link {
+  margin-top: 2px;
+  padding-top: 2px;
+  display: block;
+  font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: 30px;
+}
+
+.post-title {
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.post-content {
+    margin-bottom: 30px;
+}
+
 
 /* ==========================================================================
    Helper classes

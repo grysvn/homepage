@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>matt gray</title>
+    <description>Internet residence of Matt Gray. Clarifying for ambiguity, this Matt Gray develops software, trains for gymnastics, and is a lover of music.
+</description>
+    <link>http://mattgray.net/</link>
+    <atom:link href="http://mattgray.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 04 Jul 2017 00:07:31 -0400</pubDate>
+    <lastBuildDate>Tue, 04 Jul 2017 00:07:31 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Overcoming Gravity (2nd Edition)</title>
+        <description>&lt;span class=&quot;booktitle&quot;&gt;&lt;a href=&quot;http://stevenlow.org/book/&quot;&gt;Overcoming Gravity&lt;/a&gt;&lt;/span&gt; - As many others have said, this book is the bible of bodyweight and gymnastics strength training. From goal setting, exercise selection, routine creation, and periodization, this book provides information on how beginning, intermediate, and advanced trainees can implement these concepts. I&#39;ve structured my upper-body training for the past year and a half on what I have learned (and continue to learn from the 2nd edition) from this wonderful book; I recommend it to anyone interested in athletic training. As said by the quote on the back of the 1st edition, &quot;Lack of activity destroys the good condition of every human being, while movement and methodical physical exercise save it and preserve it.&quot; -Plato
+</description>
+        <pubDate>Mon, 03 Jul 2017 11:42:00 -0400</pubDate>
+        <link>http://mattgray.net/books/2017/07/03/overcoming-gravity-2.html</link>
+        <guid isPermaLink="true">http://mattgray.net/books/2017/07/03/overcoming-gravity-2.html</guid>
+        
+        <category>books</category>
+        
+        <category>fitness</category>
+        
+        
+        <category>books</category>
+        
+      </item>
+    
+      <item>
+        <title>Earth Abides</title>
+        <description>&lt;span class=&quot;booktitle&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Earth_Abides&quot;&gt;Earth Abides&lt;/a&gt;&lt;/span&gt; by George R. Stewart - I don&#39;t hesitate to rank &lt;span class=&quot;booktitle&quot;&gt;Earth Abides&lt;/span&gt; as my all-time favorite fiction book. To not give anything away I&#39;ll keep this as short as possible. On the surface this book is incredibly different from the life that most will live (assuming we don&#39;t run into a post-apocalyptic situation in the next century), however I feel the general arc of the protagonist&#39;s story is a sad yet beautiful way to look at life. It gave me a new perspective on living and what I can accomplish with my years on Earth.
+</description>
+        <pubDate>Mon, 03 Jul 2017 11:42:00 -0400</pubDate>
+        <link>http://mattgray.net/books/2017/07/03/earth-abides.html</link>
+        <guid isPermaLink="true">http://mattgray.net/books/2017/07/03/earth-abides.html</guid>
+        
+        <category>books</category>
+        
+        <category>fiction</category>
+        
+        
+        <category>books</category>
+        
+      </item>
+    
+  </channel>
+</rss>
