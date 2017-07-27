@@ -120,15 +120,23 @@ pre {
     background-color: #eef;
 }
 
+
 #navbar {
   text-align: center;
   border-left: 1px solid #ccc;
 }
 
 .headimg {
+  width: auto;
 	max-height:150px;
 	max-width:75%;
     border: 3px solid #ccc;
+}
+
+
+
+img {
+  width: 100%;
 }
 
 .category {
