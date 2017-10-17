@@ -10,7 +10,6 @@
 
 html {
     color: #222;
-    font-size: 1em;
     line-height: 1.4;
     text-align:center;
 }
@@ -133,6 +132,12 @@ pre {
     border: 3px solid #ccc;
 }
 
+
+
+img {
+  width: 100%;
+}
+
 .category {
   color: #ccc;
 }
@@ -175,13 +180,17 @@ pre {
 }
 
 .post-title {
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: -1px;
     line-height: 1;
+    border-bottom-style: none;
 }
 
 .post-content {
     margin-bottom: 30px;
+    img {
+    	width: 100%;
+    }
 }
 
 
