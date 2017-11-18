@@ -189,11 +189,11 @@ img {
 
 .post-content {
     margin-bottom: 30px;
-    img {
-    	width: 100%;
-    }
 }
 
+ul {
+	margin-left: 20px;
+}
 
 /* ==========================================================================
    Helper classes
