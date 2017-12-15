@@ -6,9 +6,41 @@
 </description>
     <link>http://mattgray.net/</link>
     <atom:link href="http://mattgray.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Nov 2017 14:10:35 -0500</pubDate>
-    <lastBuildDate>Sat, 18 Nov 2017 14:10:35 -0500</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Fri, 15 Dec 2017 12:05:22 -0500</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2017 12:05:22 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Stopwatching 1.2.1 Update</title>
+        <description>&lt;p&gt;First of all, if you’re interested in my Stopwatching application (a handsfree exercise/general task timer), there’s a link on the &lt;a href=&quot;http://mattgray.net/projects.html&quot;&gt;projects&lt;/a&gt; section of this site. It gives a quick blurb detailing what it’s about. Now that that’s over, here’s what I’ve updated in the application and my thoughts on the current state of it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Countdown&lt;/strong&gt; - The main critical review of the application mentioned that the countdown beeps were practically inaudible, especially when music was playing. To alleviate this, I switched to a different method of playing audio and added beeps that play much louder, especially over music.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Landscape&lt;/strong&gt; - Along with this, the landscape mode in the app wasn’t very useful. To change this I made it so the app removed the list view when in landscape and enlarged the timer to take up a majority of the screen. A problem with this is that I no longer had the start and stop buttons on the screen when in landscape, so I made it so that tapping the timer label starts and pauses the timer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Neither of these changes were very major, I just wanted to release at least one more update for the app because I haven’t gotten the chance to do much swift programming over the past year of school. One other upside to updating is that the app now displays correctly on the iPhone X :).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you have any other suggestions for the application, please feel free to leave a review on the app store or comment below (I’ll definitely see the latter quicker&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Dec 2017 12:00:00 -0500</pubDate>
+        <link>http://mattgray.net/development/2017/12/15/stopwatching-121-update.html</link>
+        <guid isPermaLink="true">http://mattgray.net/development/2017/12/15/stopwatching-121-update.html</guid>
+        
+        <category>bodyweight</category>
+        
+        <category>swift</category>
+        
+        <category>gymnastics</category>
+        
+        <category>stopwatching</category>
+        
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>Reflecting on Four Years of Training Powerlifting and Gymnastics</title>
