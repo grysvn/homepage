@@ -4,10 +4,10 @@
     <title>matt gray</title>
     <description>Internet residence of Matt Gray. Clarifying for ambiguity, this Matt Gray develops software, trains for gymnastics, and is a lover of music.
 </description>
-    <link>http://mattgray.net/</link>
-    <atom:link href="http://mattgray.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Dec 2017 12:30:42 -0500</pubDate>
-    <lastBuildDate>Fri, 15 Dec 2017 12:30:42 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Feb 2018 10:02:11 -0500</pubDate>
+    <lastBuildDate>Fri, 09 Feb 2018 10:02:11 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -26,8 +26,8 @@
 &lt;p&gt;Thanks!&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Dec 2017 12:00:00 -0500</pubDate>
-        <link>http://mattgray.net/development/2017/12/15/stopwatching-121-update.html</link>
-        <guid isPermaLink="true">http://mattgray.net/development/2017/12/15/stopwatching-121-update.html</guid>
+        <link>http://localhost:4000/development/2017/12/15/stopwatching-121-update.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2017/12/15/stopwatching-121-update.html</guid>
         
         <category>bodyweight</category>
         
@@ -140,7 +140,7 @@
 &lt;h3 id=&quot;after-overcoming-gravity&quot;&gt;After Overcoming Gravity&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;June 2015&lt;/strong&gt; - This was the major shift that made my training purposeful. I read the book &lt;a href=&quot;http://mattgray.net/books/2017/07/03/overcoming-gravity-2.html&quot;&gt;Overcoming Gravity&lt;/a&gt;. From this, I learned (and am still realizing) a large deal about programming for strength as well as the long-term goals I would like to achieve. This was when I started seriously pursuing bodyweight strength along with powerlifting for the lower body. &lt;a href=&quot;https://www.youtube.com/watch?v=iYsK1ZvpylU&quot;&gt;I also got my first rings muscle-up.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;June 2015&lt;/strong&gt; - This was the major shift that made my training purposeful. I read the book &lt;a href=&quot;http://localhost:4000/books/2017/07/03/overcoming-gravity-2.html&quot;&gt;Overcoming Gravity&lt;/a&gt;. From this, I learned (and am still realizing) a large deal about programming for strength as well as the long-term goals I would like to achieve. This was when I started seriously pursuing bodyweight strength along with powerlifting for the lower body. &lt;a href=&quot;https://www.youtube.com/watch?v=iYsK1ZvpylU&quot;&gt;I also got my first rings muscle-up.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;August 2015&lt;/strong&gt; - Before coming to college, I was just beginning to work on wall handstands, I had achieved a bar and ring muscle-up, and I could do weighted chins with 70lbs for 3x5. Starting college I was 173lbs just about and very lean. On the unlimited meal plan I decided to start bulking up.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;November 2015 (2 years ago)&lt;/strong&gt; - Here was where I started making decent progress on accomplishing some intermediate bodyweight goals. &lt;a href=&quot;https://www.youtube.com/watch?v=NCGBqWq3liE&quot;&gt;I held my first few handstands over the past few months&lt;/a&gt;, I achieved a &lt;a href=&quot;https://www.youtube.com/watch?v=Sjwd8BXMFeA&quot;&gt;half-bodyweight added chin-up&lt;/a&gt;, and my flexibility began to improve. I was also up to about 183lbs. My squat hit 315lbs around here and my deadlift was about 315lbs for 5 reps.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;April 2016&lt;/strong&gt; - I began to improve further after a slight plateau in strength. My weighted chins and weighted dips were at half-bodyweight for 5 reps around here. I started to get full back-levers and solid advanced-tuck front-levers. My handstands were now about 10% consistent instead of less than 5%. My good split and pancake were starting to get down to the floor. I began training the press-handstand.&lt;/li&gt;
@@ -160,8 +160,8 @@
 &lt;p&gt;If you have any comments/questions/critiques, feel free to comment them here. I would absolutely love to hear them. I hope some of this information is useful in applying it to your training :).&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Nov 2017 01:30:00 -0500</pubDate>
-        <link>http://mattgray.net/fitness/2017/11/18/reflecting-on-four-years-of-training.html</link>
-        <guid isPermaLink="true">http://mattgray.net/fitness/2017/11/18/reflecting-on-four-years-of-training.html</guid>
+        <link>http://localhost:4000/fitness/2017/11/18/reflecting-on-four-years-of-training.html</link>
+        <guid isPermaLink="true">http://localhost:4000/fitness/2017/11/18/reflecting-on-four-years-of-training.html</guid>
         
         <category>bodyweight</category>
         
@@ -208,7 +208,7 @@
 
 &lt;h2 id=&quot;my-specific-program&quot;&gt;My Specific Program&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://mattgray.net/assets/routine.png&quot;&gt;&lt;img src=&quot;http://mattgray.net/assets/routine.png&quot; alt=&quot;My routine&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/assets/routine.png&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/routine.png&quot; alt=&quot;My routine&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Here’s a spreadsheet of my program. I implement the exact principles I was talking about above working to achieve the iron cross, straddle planche, front lever, and handstand push-up on the rings. I focus on my main goals first, follow with my secondary goals, and then finish with basic strength movements because I’ve had much better results including them compared to excluding them. My leg day is currently focusing on strength in regards to mobility because that’s what’s important to me right now. I may do deadlifts and squats for higher reps occasionally on Friday, but it’s not a main focus of mine right now.&lt;/p&gt;
 
@@ -241,8 +241,8 @@
 &lt;p&gt;If you have any questions, feel free to ask below, but please go back to the beginning if you were skipping around before you have questions. While there are different sections, some information refers to things previously mentioned. I hope this helps, train hard and smart :).&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Jul 2017 19:00:00 -0400</pubDate>
-        <link>http://mattgray.net/fitness/2017/07/27/intermediate-advanced-gymnastics-strength.html</link>
-        <guid isPermaLink="true">http://mattgray.net/fitness/2017/07/27/intermediate-advanced-gymnastics-strength.html</guid>
+        <link>http://localhost:4000/fitness/2017/07/27/intermediate-advanced-gymnastics-strength.html</link>
+        <guid isPermaLink="true">http://localhost:4000/fitness/2017/07/27/intermediate-advanced-gymnastics-strength.html</guid>
         
         <category>bodyweight</category>
         
@@ -260,8 +260,8 @@
         <description>&lt;span class=&quot;booktitle&quot;&gt;&lt;a href=&quot;http://stevenlow.org/book/&quot;&gt;Overcoming Gravity&lt;/a&gt;&lt;/span&gt; - As many others have said, this book is the bible of bodyweight and gymnastics strength training. From goal setting, exercise selection, routine creation, and periodization, this book provides information on how beginning, intermediate, and advanced trainees can implement these concepts. I've structured my upper-body training for the past year and a half on what I have learned (and continue to learn from the 2nd edition) from this wonderful book; I recommend it to anyone interested in athletic training. As said by the quote on the back of the 1st edition, &quot;Lack of activity destroys the good condition of every human being, while movement and methodical physical exercise save it and preserve it.&quot; -Plato
 </description>
         <pubDate>Mon, 03 Jul 2017 11:42:00 -0400</pubDate>
-        <link>http://mattgray.net/books/2017/07/03/overcoming-gravity-2.html</link>
-        <guid isPermaLink="true">http://mattgray.net/books/2017/07/03/overcoming-gravity-2.html</guid>
+        <link>http://localhost:4000/books/2017/07/03/overcoming-gravity-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/books/2017/07/03/overcoming-gravity-2.html</guid>
         
         <category>books</category>
         
@@ -277,8 +277,8 @@
         <description>&lt;span class=&quot;booktitle&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Earth_Abides&quot;&gt;Earth Abides&lt;/a&gt;&lt;/span&gt; by George R. Stewart - I don't hesitate to rank &lt;span class=&quot;booktitle&quot;&gt;Earth Abides&lt;/span&gt; as my all-time favorite fiction book. To not give anything away I'll keep this as short as possible. On the surface this book is incredibly different from the life that most will live (assuming we don't run into a post-apocalyptic situation in the next century), however I feel the general arc of the protagonist's story is a sad yet beautiful way to look at life. It gave me a new perspective on living and what I can accomplish with my years on Earth.
 </description>
         <pubDate>Mon, 03 Jul 2017 11:42:00 -0400</pubDate>
-        <link>http://mattgray.net/books/2017/07/03/earth-abides.html</link>
-        <guid isPermaLink="true">http://mattgray.net/books/2017/07/03/earth-abides.html</guid>
+        <link>http://localhost:4000/books/2017/07/03/earth-abides.html</link>
+        <guid isPermaLink="true">http://localhost:4000/books/2017/07/03/earth-abides.html</guid>
         
         <category>books</category>
         
