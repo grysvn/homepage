@@ -11,8 +11,8 @@
 
   <link type="text/css" rel="stylesheet" href="/css/main.css">
   <link type="text/css" rel="stylesheet" media="screen,projection" href="/css/materialize.css">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="matt gray" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="http://mattgray.net/">
+  <link rel="alternate" type="application/rss+xml" title="matt gray" href="http://mattgray.net/feed.xml" />
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -21,33 +21,102 @@
 			<div id="content" class="col s9">
 				<div class="home">
 
+
+  <script>
+    var lastShown = '';
+    
+    //gets list of post li's
+    function getPostListItems() {
+      return document.getElementsByClassName('post-li');
+    }
+    
+    //tells user which posts are being hidden
+    function updateStatus(category) { 
+      var text = '(showing all)';
+      if (category != '') {
+        text = '(hiding all posts not in \'' + category + '\')';
+      }
+      document.getElementById('category-status').innerText = text;
+    }
+  
+    //hides all posts not belonging to category
+    function hideAllBut(category) {
+      var posts = getPostListItems();
+      if (category == lastShown) {
+        showAll();
+        return;
+      }
+      showAll();
+      for (var postIndex = 0; postIndex < posts.length; postIndex++) {
+        if (getPostListItems()[postIndex].children[1].innerText != category) {
+          posts[postIndex].hidden = true;
+        }
+      }
+      lastShown = category;
+      updateStatus(lastShown);
+    }
+    
+    //shows all posts
+    function showAll() {
+      lastShown = "";
+      var posts = getPostListItems();
+      for (var postIndex = 0; postIndex < posts.length; postIndex++) {
+        posts[postIndex].hidden = false;
+      }
+      updateStatus(lastShown);
+    }
+  </script>
+
+
+  <div id="categories">
+    <div>Show posts by category <span id="category-status">(showing all)</span>:</div>
+    <span>[ <a href="#all" onClick="showAll()">show all</a> </span>
+    
+      <span class="category-group">
+        
+         / <a href="#books" onClick="hideAllBut('books')">books</a> 
+      </span>
+    
+      <span class="category-group">
+        
+         / <a href="#fitness" onClick="hideAllBut('fitness')">fitness</a> 
+      </span>
+    
+      <span class="category-group">
+        
+         / <a href="#development" onClick="hideAllBut('development')">development</a> 
+      </span>
+    
+    ]
+  </div>
+
   <ul>
     
-      <li>
+      <li class="post-li">
         Dec 15, 2017 /
         <a href="/development/2017/12/15/stopwatching-121-update.html">Stopwatching 1.2.1 Update</a>
         <span class="category" >development</span>
       </li>
     
-      <li>
+      <li class="post-li">
         Nov 18, 2017 /
         <a href="/fitness/2017/11/18/reflecting-on-four-years-of-training.html">Reflecting on Four Years of Training Powerlifting and Gymnastics</a>
         <span class="category" >fitness</span>
       </li>
     
-      <li>
+      <li class="post-li">
         Jul 27, 2017 /
         <a href="/fitness/2017/07/27/intermediate-advanced-gymnastics-strength.html">Intermediate and Advanced Gymnastics Strength Training</a>
         <span class="category" >fitness</span>
       </li>
     
-      <li>
+      <li class="post-li">
         Jul 3, 2017 /
         <a href="/books/2017/07/03/overcoming-gravity-2.html">Overcoming Gravity (2nd Edition)</a>
         <span class="category" >books</span>
       </li>
     
-      <li>
+      <li class="post-li">
         Jul 3, 2017 /
         <a href="/books/2017/07/03/earth-abides.html">Earth Abides</a>
         <span class="category" >books</span>
@@ -56,15 +125,15 @@
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
+  
 </div>
 
 			</div>
 			<div id="navbar" class="col s3">
-				<a href="http://localhost:4000"><img class="headimg" src=/img/head.png /></u>
+				<a href="http://mattgray.net"><img class="headimg" src=/img/head.png /></u>
 				<!-- margin left to account for ULs having a 20px margin in general -->
 				<ul style="list-style-type: none; margin-left: 0px;">
-					<li><a href="http://localhost:4000">home</a></li>
+					<li><a href="http://mattgray.net">home</a></li>
 					
 						
 							<li style="list-style-type: none;"><a href="/about.html">about</a></li>
