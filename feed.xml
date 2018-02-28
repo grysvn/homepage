@@ -6,13 +6,25 @@
 </description>
     <link>http://mattgray.net/</link>
     <atom:link href="http://mattgray.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Feb 2018 16:04:37 -0500</pubDate>
-    <lastBuildDate>Sat, 24 Feb 2018 16:04:37 -0500</lastBuildDate>
+    <pubDate>Tue, 27 Feb 2018 21:06:16 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Feb 2018 21:06:16 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Weighted Bodyweight: Programming</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+        <description>&lt;p&gt;Originally posted on February 24th, 2018.&lt;/p&gt;
+
+&lt;p&gt;Update February 27th, 2018:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For beginner/intermediate/advanced benchmarks, I &lt;em&gt;highly&lt;/em&gt; recommend &lt;a href=&quot;https://docs.google.com/spreadsheets/d/19l4tVfdTJLheLMwZBYqcw1oeEBPRh8mxngqrCz2YnVg/edit#gid=2032740838&quot;&gt;the overcoming gravity progression charts&lt;/a&gt; found at that link (google sheet). If that link becomes out-dated for some reason, check out &lt;a href=&quot;http://www.reddit.com/r/overcominggravity&quot;&gt;/r/overcominggravity&lt;/a&gt; and you should be able to find the link on there in the side-bar or by asking.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/bodyweightfitness/comments/806f83/writeup_a_way_to_program_weighted_chinsdips_for/&quot;&gt;Here&lt;/a&gt; is a reddit/bodyweightfitness thread I posted for this write-up and there was some good discussion in the comments. I’ll follow up on some points mentioned here.&lt;/li&gt;
+  &lt;li&gt;This post is written assuming a full-body routine with 3x per week frequency. You could also do it with some other kind of split, but that’s outside the scope of this post. A 3x per week full-body routine is what I’m recommending around. You’d need to add skill work, horizontal plane movements, leg movements, accessory work, and mobility to this routine to make it complete. **IF you can only do 2x/week, I recommend starting with the beginner progression until you can reach an intermediate stage, and then doing light/heavy with potentially a bit more volume to make up for the lack of a third session during the week.&lt;/li&gt;
+  &lt;li&gt;Rest should be what you need, I think a good start is 90s between sets of dips and chins (or other strength pairs). Take more if necessary.&lt;/li&gt;
+  &lt;li&gt;Back-off sets are something you should figure out to be appropriate over time. If you want an objective measurement, &lt;code class=&quot;highlighter-rouge&quot;&gt;((added weight + bodyweight) * .9) - bodyweight&lt;/code&gt; can work, but it may not be perfect (or even work with very light amounts of weight added). I recommend back-off sets because I think working up to a top (&lt;strong&gt;top does not equate to failure&lt;/strong&gt;) set in the range you’re working in that day and then backing-off is a good way to regulate how hard you’re pushing yourself. You could just do sets across, but similar to the point on the split itself, these are my recommendations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;h2 id=&quot;goals&quot;&gt;Goals&lt;/h2&gt;
 
