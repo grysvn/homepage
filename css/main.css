@@ -57,6 +57,12 @@ hr {
     margin-right:auto;
 }
 
+h2 {
+    border-bottom-width: 1px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+}
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -162,6 +168,7 @@ img {
 .post-meta {
     font-size: 14px;
     color: #828282;
+    margin-top: 0px;
 }
 
 .post-link {
@@ -181,10 +188,9 @@ img {
 }
 
 .post-title {
-    font-size: 3.25em;
-    letter-spacing: -1px;
     line-height: 1;
     border-bottom-style: none;
+    margin-bottom: 5px;
 }
 
 .post-content {
@@ -275,91 +281,125 @@ ul {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
+   body {
+    font-size: 100%;
+  }
+  
+  body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+    font-size-adjust: 0.5;
+  }
+  
+  #page {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.25;
+    /* equivalent to 20px */
+  }
+  
+  @media (min-width: 43.75em) {
+    #page {
+      font-size: 1em;
+      /* equivalent to 16px */
+      line-height: 1.375;
+      /* equivalent to 22px */
     }
-
-    a,
-    a:visited {
-        text-decoration: underline;
+  }
+  
+  h1 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+    /* 45px / 36px */
+  }
+  
+  @media (min-width: 43.75em) {
+    h1 {
+      font-size: 2.5em;
+      /* 2.5x body copy size = 40px */
+      line-height: 1.125;
     }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
+  }
+  
+  @media (min-width: 56.25em) {
+    h1 {
+      font-size: 3em;
+      /* 3x body copy size = 48px */
+      line-height: 1.05;
+      /* keep to a multiple of the 20px line height and something more appropriate for display headings */
     }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
+  }
+  
+  h2 {
+    font-size: 1.625em;
+    /* 1.625x body copy size = 26px */
+    line-height: 1.15384615;
+    /* 30px / 26px */
+  }
+  
+  @media (min-width: 43.75em) {
+    h2 {
+      font-size: 2em;
+      /* 2x body copy size = 32px */
+      line-height: 1.25;
     }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
+  }
+  
+  @media (min-width: 56.25em) {
+    h2 {
+      font-size: 2.25em;
+      /* 2.25x body copy size = 36px */
+      line-height: 1.25;
     }
-
-    pre,
+  }
+  
+  h3 {
+    font-size: 1.375em;
+    /* 1.375x body copy size = 22px */
+    line-height: 1.13636364;
+    /* 25px / 22px */
+  }
+  
+  @media (min-width: 43.75em) {
+    h3 {
+      font-size: 1.5em;
+      /* 1.5x body copy size = 24px */
+      line-height: 1.25;
+    }
+  }
+  
+  @media (min-width: 56.25em) {
+    h3 {
+      font-size: 1.75em;
+      /* 1.75x body copy size = 28px */
+      line-height: 1.25;
+    }
+  }
+  
+  h4 {
+    font-size: 1.125em;
+    /* 1.125x body copy size = 18px */
+    line-height: 1.11111111;
+  }
+  
+  @media (min-width: 43.75em) {
+    h4 {
+      line-height: 1.22222222;
+      /* (22px / 18px */
+    }
+  }
+  
+  blockquote {
+    font-size: 1.25em;
+    /* 20px / 16px */
+    line-height: 1.25;
+    /* 25px / 20px */
+  }
+  
+  @media (min-width: 43.75em) {
     blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
+      font-size: 1.5em;
+      /* 24px / 16px = */
+      line-height: 1.45833333;
+      /* 35px / 24px */
     }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+  }
