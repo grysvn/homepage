@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>posts</title>
+  <meta name="description" content="Internet residence of Matt Gray. Clarifying for ambiguity, this Matt Gray develops software, trains for gymnastics, and is a lover of music.
+">
+
+  <link type="text/css" rel="stylesheet" href="/css/main.css">
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/css/materialize.css">
+  <link rel="canonical" href="http://mattgray.net/posts.html">
+  <link rel="alternate" type="application/rss+xml" title="matt gray" href="http://mattgray.net/feed.xml" />
+  <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+	<body>
+		<div id="body" class="row">
+			<!-- BODY -->
+
+			<div id="content" class="col s9">
+				<script>
+  var lastShown = '';
+  
+  //gets list of post li's
+  function getPostListItems() {
+    return document.getElementsByClassName('post-li');
+  }
+  
+  //tells user which posts are being hidden
+  function updateStatus(category) { 
+    var text = '(showing all)';
+    if (category != '') {
+      text = '(hiding all posts not in \'' + category + '\')';
+    }
+    document.getElementById('category-status').innerText = text;
+  }
+
+  //hides all posts not belonging to category
+  function hideAllBut(category) {
+    var posts = getPostListItems();
+    if (category == lastShown) {
+      showAll();
+      return;
+    }
+    showAll();
+    for (var postIndex = 0; postIndex < posts.length; postIndex++) {
+      if (getPostListItems()[postIndex].children[1].innerText != category) {
+        posts[postIndex].hidden = true;
+      }
+    }
+    lastShown = category;
+    updateStatus(lastShown);
+  }
+  
+  //shows all posts
+  function showAll() {
+    lastShown = "";
+    var posts = getPostListItems();
+    for (var postIndex = 0; postIndex < posts.length; postIndex++) {
+      posts[postIndex].hidden = false;
+    }
+    updateStatus(lastShown);
+  }
+</script>
+
+
+<div id="categories">
+  <div>Show posts by category <span id="category-status">(showing all)</span>:</div>
+  <span><a href="#all" onClick="showAll()">show all</a> </span>
+  
+    <span class="category-group">
+      
+        / <a href="#books" onClick="hideAllBut('books')">books</a> 
+    </span>
+  
+    <span class="category-group">
+      
+        / <a href="#fitness" onClick="hideAllBut('fitness')">fitness</a> 
+    </span>
+  
+    <span class="category-group">
+      
+        / <a href="#development" onClick="hideAllBut('development')">development</a> 
+    </span>
+  
+    <span class="category-group">
+      
+        / <a href="#thoughts" onClick="hideAllBut('thoughts')">thoughts</a> 
+    </span>
+  
+</div>
+
+<ul>
+  
+    <li class="post-li">
+      Oct 7, 2018 /
+      <a href="/books/2018/10/07/more-than-this.html">More Than This</a>
+      <span class="category" >books</span>
+    </li>
+  
+    <li class="post-li">
+      Sep 24, 2018 /
+      <a href="/thoughts/2018/09/24/on-attention.html">On attention</a>
+      <span class="category" >thoughts</span>
+    </li>
+  
+    <li class="post-li">
+      Sep 9, 2018 /
+      <a href="/books/2018/09/09/catcher-in-the-rye.html">Catcher in the Rye</a>
+      <span class="category" >books</span>
+    </li>
+  
+    <li class="post-li">
+      Aug 24, 2018 /
+      <a href="/development/2018/08/24/streaking-release.html">iOS Application - Streaking</a>
+      <span class="category" >development</span>
+    </li>
+  
+    <li class="post-li">
+      Aug 3, 2018 /
+      <a href="/books/2018/08/03/ready-player-one.html">Ready Player One</a>
+      <span class="category" >books</span>
+    </li>
+  
+    <li class="post-li">
+      Jul 8, 2018 /
+      <a href="/books/2018/07/08/the-pearl.html">The Pearl</a>
+      <span class="category" >books</span>
+    </li>
+  
+    <li class="post-li">
+      Jul 8, 2018 /
+      <a href="/books/2018/07/08/getting-things-done.html">Getting Things Done</a>
+      <span class="category" >books</span>
+    </li>
+  
+    <li class="post-li">
+      May 20, 2018 /
+      <a href="/fitness/2018/05/20/an-approach-to-mobility.html">An approach to mobility</a>
+      <span class="category" >fitness</span>
+    </li>
+  
+    <li class="post-li">
+      Apr 10, 2018 /
+      <a href="/thoughts/2018/04/10/on-productivity-and-pursuing-goals.html">On productivity and pursuing diverse long-term goals</a>
+      <span class="category" >thoughts</span>
+    </li>
+  
+    <li class="post-li">
+      Mar 8, 2018 /
+      <a href="/books/2018/03/08/overcoming-poor-posture.html">Overcoming Poor Posture</a>
+      <span class="category" >books</span>
+    </li>
+  
+    <li class="post-li">
+      Feb 24, 2018 /
+      <a href="/fitness/2018/02/24/weighted-bodyweight.html">Weighted Bodyweight: Programming</a>
+      <span class="category" >fitness</span>
+    </li>
+  
+    <li class="post-li">
+      Dec 15, 2017 /
+      <a href="/development/2017/12/15/stopwatching-121-update.html">Stopwatching 1.2.1 Update</a>
+      <span class="category" >development</span>
+    </li>
+  
+    <li class="post-li">
+      Nov 18, 2017 /
+      <a href="/fitness/2017/11/18/reflecting-on-four-years-of-training.html">Reflecting on Four Years of Training Powerlifting and Gymnastics</a>
+      <span class="category" >fitness</span>
+    </li>
+  
+    <li class="post-li">
+      Jul 27, 2017 /
+      <a href="/fitness/2017/07/27/intermediate-advanced-gymnastics-strength.html">Intermediate and Advanced Gymnastics Strength Training</a>
+      <span class="category" >fitness</span>
+    </li>
+  
+    <li class="post-li">
+      Jul 3, 2017 /
+      <a href="/books/2017/07/03/overcoming-gravity-2.html">Overcoming Gravity (2nd Edition)</a>
+      <span class="category" >books</span>
+    </li>
+  
+    <li class="post-li">
+      Jul 3, 2017 /
+      <a href="/books/2017/07/03/earth-abides.html">Earth Abides</a>
+      <span class="category" >books</span>
+    </li>
+  
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+			</div>
+
+			<!-- NAVBAR -->
+
+			<div id="navbar" class="col s3">
+				<a href="http://mattgray.net"><img class="headimg" src=/img/head.png /></u>
+				<!-- margin left to account for ULs having a 20px margin in general -->
+				<ul style="list-style-type: none; margin-left: 0px;">
+					
+						
+							<li style="list-style-type: none;"><a href="/index.html">home</a></li>
+						
+					
+						
+							<li style="list-style-type: none;"><a href="/posts.html">posts</a></li>
+						
+					
+						
+							<li style="list-style-type: none;"><a href="/projects.html">projects</a></li>
+						
+					
+					<li style="list-style-type: none;"><a href="/assets/resume.pdf">resume</a></li>
+				</ul>
+			</div>
+		</div>
+		<hr/>
+		<footer class="site-footer">
+
+  <p><a href="https://twitter.com/grysvn">twitter</a> &#8226;
+     <a href="https://www.instagram.com/grysvn/">instagram</a> &#8226;
+     <a href="https://github.com/grysvn">github</a></br>
+  &copy Matt Gray 2018</p>
+
+  <script>
+      window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+      ga('create','UA-35916225-1','auto');ga('send','pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</footer>
+
+	</body>
+</html>
