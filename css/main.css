@@ -111,12 +111,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header {
+  border-bottom: 1px solid #ccc;
+}   
+
 html {
 	padding-top:10px;
 }
 
 #body {
   text-align: left
+}
+
+.pinned {
+  position: fixed;
 }
 
 pre {
@@ -126,10 +134,14 @@ pre {
     background-color: #eef;
 }
 
+#navbar-container {
+  padding: 0;
+}
 
 #navbar {
   text-align: center;
   border-left: 1px solid #ccc;
+  width: 16.667%; /* navbar is 16.667% of container, we want to fill it */
 }
 
 .headimg {
