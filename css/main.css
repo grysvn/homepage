@@ -173,8 +173,7 @@ img {
 }
 
 .post-list {
-    margin-left: 0px;
-    list-style: none;
+    margin-bottom: 20px;
 }
 
 .post-meta {
@@ -295,6 +294,7 @@ ul {
 
    body {
     font-size: 100%;
+    margin-bottom: 0px;
   }
   
   body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
